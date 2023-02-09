@@ -1,0 +1,45 @@
+.location {
+    background-image: url(/33GO.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 5px #1e7065;
+    padding: 1em 1.5em 1.5em;
+    margin-bottom: 4em;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.location__name {
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: #91ff00;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    
+}
+
+.location__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+
+}
+.location__item {
+    display: grid;
+    gap: 0.3em;
+    text-align: center;
+    font-weight: 300;
+    color: #91ff00;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+
+}
+
+.location__info {
+    font-weight: 500;
+    color: white;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+
+}
